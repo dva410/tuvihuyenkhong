@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html lang ="eng">
+ <head>
+ 	<title> Lập lá số Tử vi </title>
+ 	<meta charset ="utf-8"/>
+ 	<meta name ="description" content = "Lập lá số tử vi" />
+ 	<meta name = "keywords" content="Giờ, Ngày , Tháng , Năm "/>
+ 	<meta name = "author"	content="Đường Việt Anh" />
+ </head>
+
+ <body>
+<h1>Nhập thông tin</h1>
+
+<form action="/action_page.php">
+
+  <label for="name">Tên người lập lá số:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="hour">Giờ sinh:</label>
+  <input type="time" id="hour" name="hour"><br><br>
+  <label for="birthday">Ngày sinh:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+<p>Chọn giới tinh:</p>
+<form action="/action_page.php">
+<input type="radio" id="nam" name="fav_language" value="NAM">
+<label for="nam">NAM</label><br>
+<input type="radio" id="nữ" name="fav_language" value="NỮ">
+<label for="nữ">NỮ</label><br>
+
+
+  <input id="submit" type="submit" value="Tạo lá số">
+</form>
+
+
+
+ </body>
+ </html>
