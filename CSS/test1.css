@@ -1,0 +1,118 @@
+body{
+	background-color: black;
+	color: whitesmoke;
+}
+h1{
+	font-family: Garamond ;
+	color: red;
+	background-color: black;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 0px 0px;
+}
+h2{
+	font-size: 28px;
+	font-family: courier new;
+ 	color: goldenrod;
+ 	background-color: black;
+ 	text-align: center;
+ 	padding: 10px	;
+}
+img[class=avatar]{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img[class=left_side]{
+	margin-top:5px;
+}
+nav{
+	padding: 15px 20px;
+	margin: 0px 0px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+}
+nav a {
+	font-family: Calibri;
+	padding: 15px 20px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+nav a.menu_left{
+	float:left;
+}
+nav a.menu_right{
+	float: right;
+}
+nav a:hover{
+	background-color: whitesmoke;
+	color: black;
+}
+label{
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight:bold;
+	color: whitesmoke;
+	text-align: center;
+}
+input{
+	width: 200px;
+}
+
+input[type=submit] {
+
+ 	width: 50%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=text], select {
+  	width: 40%;
+ 	padding: 12px 25px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	text-align:center;
+}
+
+option{
+	width: 150px;
+}
+
+footer{
+	text-align: center;
+	font-family: calibri;
+}
+
+footer a {
+	color:white;
+	text-decoration: none;
+	font-family: calibri;
+	padding: 15px 20px;
+	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	display: block;
+}
+footer a:hover{
+	background-color: whitesmoke;
+	color: black;
+}
